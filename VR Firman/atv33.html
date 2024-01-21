@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tugas Aldi Permana - A-Frame</title>
+    <meta name="description" content="Tugas Aldi Permana • A-Frame">
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="assets/dist/aframe-simple-link-component.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.3.3/dist/aframe-environment-component.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #FAFAFA" environment="preset: forest">
+    <a-assets>
+	    <img id="Atv1" src="./assets/Atv3/textures/blinn1SG_baseColor.jpeg">
+        <img id="Atv2" src="./assets/Atv3/textures/blinn1SG_metallicRoughness.png">
+        <img id="Atv3" src="./assets/Atv3/textures/blinn1SG_normal.png">
+        <img id="Atv4" src="./assets/Atv3/textures/blinn2SG_baseColor.jpeg">
+        <img id="Atv5" src="./assets/Atv3/textures/blinn2SG_metallicRoughness.png">
+        <img id="Atv6" src="./assets/Atv3/textures/blinn2SG_normal.png">
+        <img id="Atv7" src="./assets/Atv3/textures/blinn3SG_baseColor.jpeg">
+        <img id="Atv8" src="./assets/Atv3/textures/blinn3SG_metallicRoughness.png">
+        <img id="Atv9" src="./assets/Atv3/textures/blinn3SG_normal.png">
+    </a-assets>
+
+    <a-entity gltf-model="./assets/Atv3/scene.gltf" scale="1 1 1"position="2 1 -5>
+        <a-entity
+            material="src: #Atv1"
+            gltf-part="body">
+        </a-entity>
+        <a-entity
+            material="src: #Atv2"
+            gltf-part="bemper">
+        </a-entity>
+        <a-entity
+            material="src: #Atv3"
+            gltf-part="ban">
+        </a-entity>
+        <a-entity
+            material="src: #Atv4"
+            gltf-part="kaca">
+        </a-entity>
+        <a-entity
+            material="src: #Atv5"
+            gltf-part="velg">
+        </a-entity>
+        <a-entity
+            material="src: #Atv6"
+            gltf-part="lampu">
+        </a-entity>
+        <a-entity
+            material="src: #Atv7"
+            gltf-part="spoil">
+        </a-entity>
+        <a-entity
+            material="src: #Atv8"
+            gltf-part="jendela">
+        </a-entity>
+        <a-entity
+            material="src: #Atv9"
+            gltf-part="pintu">
+        </a-entity>
+    </a-entity>
+    </a-entity>
+    <a-entity id="mouseCursor" cursor="rayOrigin: mouse"></a-entity>
+    <a-entity position="0 0.5 -5" geometry="primitive: box" material="color: green"
+        animation__mouseenter="property: components.material.material.color; type: color; to: black; startEvents: mouseenter; dur: 500"
+        animation__mouseleave="property: components.material.material.color; type: color; to: brown; startEvents: mouseleave; dur: 500">
+    </a-entity>
+        </a-entity>
+    </a-scene>
+</body>
+
+</html>

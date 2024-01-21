@@ -1,0 +1,11 @@
+Model Information:
+* title:	Oshkosh M ATV "Puma"
+* source:	https://sketchfab.com/3d-models/oshkosh-m-atv-puma-2d8b77e32c5e4f53b67d704245518d86
+* author:	macadaneo (https://sketchfab.com/macadaneo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Oshkosh M ATV "Puma"" (https://sketchfab.com/3d-models/oshkosh-m-atv-puma-2d8b77e32c5e4f53b67d704245518d86) by macadaneo (https://sketchfab.com/macadaneo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

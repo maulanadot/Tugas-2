@@ -1,0 +1,11 @@
+Model Information:
+* title:	ATV 3
+* source:	https://sketchfab.com/3d-models/atv-3-a0991f0d16e140268fa1cd3067e5a276
+* author:	hartwelkisaka (https://sketchfab.com/hartwelkisaka)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "ATV 3" (https://sketchfab.com/3d-models/atv-3-a0991f0d16e140268fa1cd3067e5a276) by hartwelkisaka (https://sketchfab.com/hartwelkisaka) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

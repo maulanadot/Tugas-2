@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A-Frame Simple Link Component - Basic</title>
+    <meta name="description" content="Basic example for Simple Link component."></meta>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    <script src="assets/dist/aframe-simple-link-component.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.0.0/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene environment="preset:arches " cursor="rayOrigin: mouse">
+      <a-assets>
+        <img id="linkImage1" src="./assets/atv2.jpg">
+      </a-assets>
+      <a-entity position="0 1.5 -5" simple-link="href: atv2.html; title: Atv double; image: #linkImage1; radius:1.2; font: monoid"></a-entity>
+
+      <a-assets>
+        <img id="linkImage2" src="./assets/atv1.jpg">
+      </a-assets>
+      <a-entity position="-4 1.5 -5" simple-link="href: atv1.html; title: Atv single; image: #linkImage2; radius:1.2; font: monoid"></a-entity>
+
+      <a-assets>
+        <img id="linkImage3" src="./assets/atv3.jpg">
+      </a-assets>
+      <a-entity position="4 1.5 -5" simple-link="href: atv3.html; title: Atv Triple; image: #linkImage3; radius:1.2; font: monoid"></a-entity>
+    </a-scene>
+
+  </body>
+</html>
